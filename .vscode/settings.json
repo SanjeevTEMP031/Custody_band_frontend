@@ -1,0 +1,18 @@
+{
+  "git.autorefresh": true,
+  "git.autofetch": true,
+  "files.watcherExclude": {
+    "**/.git/objects/**": true,
+    "**/.git/subtree-cache/**": true,
+    "**/node_modules/**": true,
+    "**/.npm-cache/**": true,
+    "**/.venv/**": true,
+    "**/dist/**": true
+  },
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/dist": true,
+    "**/.npm-cache": true,
+    "**/.venv": true
+  }
+}
