@@ -1,0 +1,76 @@
+# Dependencies & Package Manager Caches
+**/node_modules/
+node_modules/
+**/.npm-cache/
+.npm-cache/
+package-lock.json.bak
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Python Virtual Environments & Caches
+**/.venv/
+**/venv/
+**/env/
+**/ENV/
+**/__pycache__/
+*.py[cod]
+*$py.class
+*.pyd
+.Python
+**/.pytest_cache/
+.pytest_cache/
+
+# Test results & coverage
+**/test-results/
+test-results/
+coverage/
+.nyc_output/
+
+# Build artifacts & distribution
+**/dist/
+dist/
+dist-ssr/
+build/
+*.local
+
+# Firebase caches & debug logs
+.firebase/
+**/.firebase/
+firebase-debug.log*
+firestore-debug.log*
+ui-debug.log*
+
+# Device & Debug Logs
+logs/
+*.log
+device_log_*.txt
+*.tmp
+**/watch_logs/
+watch_logs/
+
+# Secrets, Environment & Credentials
+.env
+.env.*
+!.env.example
+secrets/
+**/secrets/
+*.pem
+*.key
+*.cert
+
+# Editor & OS files
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+.idea/
+.claude/
+**/.claude/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.DS_Store
+Thumbs.db
